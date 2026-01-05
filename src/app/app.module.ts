@@ -10,6 +10,7 @@ import { ThirdComponentComponent } from './third-component/third-component.compo
 import { FourthComponentComponent } from './fourth-component/fourth-component.component';
 import { FifthComponentComponent } from './fifth-component/fifth-component.component';
 import { FormsModule } from '@angular/forms';
+import { SixtComponentComponent } from './sixt-component/sixt-component.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { FormsModule } from '@angular/forms';
     ThirdComponentComponent,
     FourthComponentComponent,
     FifthComponentComponent,
+    SixtComponentComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
