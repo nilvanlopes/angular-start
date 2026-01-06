@@ -11,6 +11,7 @@ import { FourthComponentComponent } from './fourth-component/fourth-component.co
 import { FifthComponentComponent } from './fifth-component/fifth-component.component';
 import { FormsModule } from '@angular/forms';
 import { SixtComponentComponent } from './sixt-component/sixt-component.component';
+import { SeventhComponentComponent } from './seventh-component/seventh-component.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { SixtComponentComponent } from './sixt-component/sixt-component.componen
     FourthComponentComponent,
     FifthComponentComponent,
     SixtComponentComponent,
+    SeventhComponentComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
