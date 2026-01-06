@@ -1,1 +1,8 @@
-<p>sixt-component works!</p>
+<h2>Phone List</h2>
+<ul>
+  <li *ngFor="let phone of phones">
+    <p>Name: {{phone.name}}</p>
+    <p>Description: {{phone.description}}</p>
+    <p>{{phone.soldOut ? "SOLD OUT" : "Buy NOW"}}</p>
+  </li>
+</ul>
