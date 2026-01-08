@@ -1,0 +1,5 @@
+<h1>This is Parent Component</h1>
+<h2>Components interacting</h2>
+<h3>The surname is in parent component <span ngNonBindable >{{</span> {{surname}}  <span ngNonBindable >}}</span></h3>
+<h3>With the use of #child we can use the <span ngNonBindable >{{</span> {{child.name}}  <span ngNonBindable >}}</span>from the child component</h3>
+<app-child-component [surname]="surname" #child (showFullName)="showFullName($event)"></app-child-component>

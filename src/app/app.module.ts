@@ -12,6 +12,8 @@ import { FifthComponentComponent } from './fifth-component/fifth-component.compo
 import { FormsModule } from '@angular/forms';
 import { SixtComponentComponent } from './sixt-component/sixt-component.component';
 import { SeventhComponentComponent } from './seventh-component/seventh-component.component';
+import { ParentComponentComponent } from './eighth-component/parent-component/parent-component.component';
+import { ChildComponentComponent } from './eighth-component/child-component/child-component.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { SeventhComponentComponent } from './seventh-component/seventh-component
     FifthComponentComponent,
     SixtComponentComponent,
     SeventhComponentComponent,
+    ParentComponentComponent,
+    ChildComponentComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],

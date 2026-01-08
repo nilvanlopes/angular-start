@@ -1,0 +1,6 @@
+<h1>This is child component</h1>
+<label for="name">Name:</label>
+<input type="text" name="" id="name" [(ngModel)]= "name">
+<p>In this case the  <span ngNonBindable >{{</span> {{surname}}  <span ngNonBindable >}} is from the parent Component</span></p>
+<p>{{name}} {{surname}}</p>
+<button type="button" (click)="showFullName.emit(name+' '+ surname)">show full name</button>
