@@ -14,6 +14,7 @@ import { SixtComponentComponent } from './sixt-component/sixt-component.componen
 import { SeventhComponentComponent } from './seventh-component/seventh-component.component';
 import { ParentComponentComponent } from './eighth-component/parent-component/parent-component.component';
 import { ChildComponentComponent } from './eighth-component/child-component/child-component.component';
+import { NinthComponentComponent } from './ninth-component/ninth-component.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { ChildComponentComponent } from './eighth-component/child-component/chil
     SeventhComponentComponent,
     ParentComponentComponent,
     ChildComponentComponent,
+    NinthComponentComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
