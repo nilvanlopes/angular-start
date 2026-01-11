@@ -17,6 +17,8 @@ import { ChildComponentComponent } from './eighth-component/child-component/chil
 import { NinthComponentComponent } from './ninth-component/ninth-component.component';
 import { TenthComponentComponent } from './tenth-component/tenth-component.component';
 import { EleventhComponentComponent } from './eleventh-component/eleventh-component.component';
+import { TwelftComponentComponent } from './twelft-component/twelft-component.component';
+import { ThirteenthComponentComponent } from './thirteenth-component/thirteenth-component.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +36,8 @@ import { EleventhComponentComponent } from './eleventh-component/eleventh-compon
     NinthComponentComponent,
     TenthComponentComponent,
     EleventhComponentComponent,
+    TwelftComponentComponent,
+    ThirteenthComponentComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],

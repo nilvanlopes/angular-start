@@ -4,12 +4,17 @@ import { FirstComponentComponent } from './first-component/firstComponent.compon
 import { SecondComponentComponent } from './second-component/second-component.component';
 import { ThirdComponentComponent } from './third-component/third-component.component';
 import { FourthComponentComponent } from './fourth-component/fourth-component.component';
+import { TwelftComponentComponent } from './twelft-component/twelft-component.component';
+import { ThirteenthComponentComponent } from './thirteenth-component/thirteenth-component.component';
 
 const routes: Routes = [
   { path: '1', component: FirstComponentComponent },
   { path: '2', component: SecondComponentComponent },
   { path: '3', component: ThirdComponentComponent },
   { path: '4', component: FourthComponentComponent },
+  { path: '13/:id', component: ThirteenthComponentComponent },
+  { path: '', redirectTo: '3', pathMatch: 'full' },
+  { path: '**', component: TwelftComponentComponent },
 ];
 
 @NgModule({
