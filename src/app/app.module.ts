@@ -19,6 +19,8 @@ import { TenthComponentComponent } from './tenth-component/tenth-component.compo
 import { EleventhComponentComponent } from './eleventh-component/eleventh-component.component';
 import { TwelftComponentComponent } from './twelft-component/twelft-component.component';
 import { ThirteenthComponentComponent } from './thirteenth-component/thirteenth-component.component';
+import { FourteenthComponentComponent } from './fourteenth-component/fourteenth-component.component';
+import { LoginComponent } from './fourteenth-component/login/login.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +40,8 @@ import { ThirteenthComponentComponent } from './thirteenth-component/thirteenth-
     EleventhComponentComponent,
     TwelftComponentComponent,
     ThirteenthComponentComponent,
+    FourteenthComponentComponent,
+    LoginComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
